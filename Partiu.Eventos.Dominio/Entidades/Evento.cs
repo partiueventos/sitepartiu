@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Partiu.Eventos.Dominio.Entidades
 {
-    class Evento
+     public class Evento
     {
         public int idEvento { get; set; }
         public String nome { get; set; }
